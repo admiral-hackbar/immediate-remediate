@@ -1,0 +1,27 @@
+# Immediate Remediate
+#!/bin/python
+
+# Data structure, in nearby json file
+#	{
+#		monitor_path: "path to pipe",
+#		regex: "",
+#		script: "path to script",
+#		script_type: "python",
+#		log_output: "The thing tipped over and I ran the script"
+#	}
+
+
+#import watchdog
+https://pythonhosted.org/watchdog/
+
+#read json
+#create structs for each json object
+
+#open listening pipes for each log file
+
+#for new log
+	#can I figure out which pipe it came from?
+	#tie pipe back to struct and check against regex
+	#if it hits one of the regex, run the script
+	#log output from the script and log custom output from struct
+
